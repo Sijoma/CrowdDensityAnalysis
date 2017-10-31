@@ -3,7 +3,7 @@ In the context of the university course ”Python in GIS” two different data t
 image data and smartphone trajectories including GPS points around the football stadium in
 Mönchengladbach. We were asked to develop a simple research question, which should be
 answered using the provided data.
-Dr. Florian Hillen presented a formula [1] to calculate the crowd density out of the movement speed of
+Dr. Florian Hillen presented a formula * to calculate the crowd density out of the movement speed of
 the persons. The second possibility to calculate the density is to use the image data and to do image
 recognition to examine persons in the area of interest. Thus, there are two different methods
 to calculate the crowd density around the stadium. In our project, we wanted to compare
