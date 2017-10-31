@@ -1,9 +1,19 @@
+## What do these scripts do?
+
+Script1DensemapGenerator.py : Generates a crowd density map of a georeferenced aerial image and copy's the projection.
+Script2ProcessShapes.py : Processes shapefiles that include a gps track of a person in a crowd. It calculates the speed of this person and calculates the crowd density around that object based on a formula* that includes the speed. Several plots that compare the formula density and the density from image processing, are created and stored as a png file.
+
+Remarks: Scripts have to be adjusted to work with other data properly. The used data is not supplied in this repository.
+
+*Hillen, Florian, Oliver Meynberg, and Bernhard Höfle. "Routing in Dense Human Crowds
+Using Smartphone Movement Data and Optical Aerial Imagery." ​ ISPRS International Journal
+of Geo-Information ​ 4.2 (2015): 974-988
+
 ## Instructions
 
-The following frameworks need to be installed as explained in the lecture: numpy, gdal, matplotlib.
+The following libraries need to be installed: numpy, gdal, matplotlib.
 Additionally OpenCV and Scikit learn are required if you want to run the Script1DensemapGenerator, however this will take 
-take some time depending on your hardware. If you do not want to create the densemap yourself you can copy it from the
-'suppliedDensemap' Folder to the 'output' folder and thus skip Script1DensemapGenerator.py. (Make sure that you copy the .jpg and the .aux file)
+take some time depending on your hardware. 
 
 When the dependencies are installed, please run the script Script1DensemapGenerator.py and Script2ProcessShapes.py 
 to reproduce the project. 
